@@ -1,0 +1,16 @@
+# HONEYMOON — robots.txt
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /messages/
+Disallow: /profile/
+Disallow: /settings/
+Disallow: /checkout/
+Disallow: /api/
+
+# Sitemaps
+Sitemap: https://honeymoon.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
